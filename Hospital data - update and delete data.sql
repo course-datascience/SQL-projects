@@ -1,0 +1,34 @@
+USE HOSPITAL_MANAGEMENT;
+-- UPDATE DATA
+-- 1. UPDATE PATIENT INFORMATION
+UPDATE Patients
+SET PhoneNumber = '9876543210', Address = '789 Maple St'
+WHERE PatientID = 1;
+-- 2.UPDATE APPOINTMENT STATUS
+UPDATE Appointments
+SET Status = 'Completed'
+WHERE AppointmentID = 1;
+
+-- 3. UPDATE DOCTOR SPECIALITY
+UPDATE Doctors
+SET Specialty = 'General Practice'
+WHERE DoctorID = 1;
+
+-- DELETING DATA
+-- 1.DELETE A PATIENT
+DELETE FROM Patients
+WHERE PatientID = 1;
+
+-- 2.DELETE A DOCTOR
+DELETE FROM Doctors
+WHERE DoctorID = 1;
+
+-- 3.DELETE A APPOINTMENT
+DELETE FROM Appointments
+WHERE AppointmentID = 1;
+
+-- 4.DELETE A MEDICAL RECORD
+DELETE FROM MedicalRecords
+WHERE RecordID = 1;
+
+ 
