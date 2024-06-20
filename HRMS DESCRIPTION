@@ -1,0 +1,50 @@
+A well-structured README file is essential for any project, including a Human Resource Management System (HRMS). 
+It provides a comprehensive overview of the project, instructions for setup and usage, and other important information for users and contributors.
+# Human Resource Management System (HRMS)
+
+This repository contains the SQL schema and sample data for a Human Resource Management System (HRMS). It includes tables for managing employees, departments, roles, salaries, attendance, leave, and performance reviews.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Database Schema](#database-schema)
+- [Sample Data](#sample-data)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+The Human Resource Management System (HRMS) is designed to streamline and automate various HR tasks, including managing employee information, departments, roles, salaries, attendance, leave, and performance reviews. This project provides the necessary SQL scripts to set up the database and populate it with sample data.
+
+## Features
+
+- **Employee Management:** Add, update, and delete employee records.
+- **Department Management:** Manage departments and their associated roles.
+- **Role Management:** Define roles within departments.
+- **Salary Management:** Track employee salaries, bonuses, and deductions.
+- **Attendance Management:** Record daily attendance of employees.
+- **Leave Management:** Handle employee leave requests and approvals.
+- **Performance Reviews:** Store and manage performance reviews.
+
+## Database Schema
+
+The database schema includes the following tables:
+
+- `Employees`
+- `Departments`
+- `Roles`
+- `Salaries`
+- `Attendance`
+- `Leave`
+- `PerformanceReviews`
+
+## Sample Data
+
+The repository includes sample data to help you get started:
+
+- `schema.sql`: Contains the SQL statements to create the database schema.
+- `data.sql`: Contains INSERT statements to populate the database with sample data.
+- `queries.sql`: Contains example queries for retrieving and manipulating data.
+
